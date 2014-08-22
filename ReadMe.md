@@ -17,8 +17,8 @@ set PATH=%PATH%;C:\DDDDDD\sdk\platform-tools;C:\DDDDDD\sdk\tools;C:\DDDDDD\andro
 
 Quick Command
 --------------
-ndk-build clean
-ndk-build APP_ABI=all
-ndk-build NDK_DEBUG=1 
+- ndk-build clean
+- ndk-build APP_ABI=all
+- ndk-build NDK_DEBUG=1 
 
 

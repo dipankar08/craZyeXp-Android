@@ -10,6 +10,6 @@ public class FileLib {
 		
 		static{
 			System.loadLibrary("allLib");
-			System.loadLibrary("hxcomm");
+			//System.loadLibrary("hxcomm");
 		}
 }

@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ import android.widget.TextView;
 
 
 
-public class MainActivity extends ActionBarActivity implements OnClickListener  {
+public class MainActivity extends Activity implements OnClickListener  {
 	
 	private EditText input;
 	private RadioGroup type;
@@ -117,9 +117,6 @@ public void fun()
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 }

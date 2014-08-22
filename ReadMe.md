@@ -12,5 +12,13 @@ Single Click Check out Process:
 6. "C:\Program Files (x86)\Git\bin\git.exe" push origin master
 
 PATH Setting
-=============
+--------------
 set PATH=%PATH%;C:\DDDDDD\sdk\platform-tools;C:\DDDDDD\sdk\tools;C:\DDDDDD\android-ndk-r10
+
+Quick Command
+--------------
+ndk-build clean
+ndk-build APP_ABI=all
+ndk-build NDK_DEBUG=1 
+
+

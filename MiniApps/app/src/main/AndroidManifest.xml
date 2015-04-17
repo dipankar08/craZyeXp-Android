@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.microsoft.ddutta.tutorialapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- Tut1: Hello World: This is kind of Hello World Progrma -->
+        <activity
+            android:name=".tutorial1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut2: HelloWorld2: Crete layout using Code.. -->
+        <activity
+            android:name=".tutorial2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut3: Chnage Font Dynamically.. -->
+        <activity
+            android:name=".tutorial3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut4: Activity Life Cycle-->
+        <activity
+            android:name=".tutorial4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut5: Liner layout Example.-->
+        <activity
+            android:name=".tutorial5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut6: Relative layout Example.-->
+        <activity
+            android:name=".tutorial6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut7: Table layout Example.-->
+        <activity
+            android:name=".tutorial7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tut8: Frame layout  Z index  layout Example.-->
+        <activity
+            android:name=".tutorial8"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Tut9: FExample of Controls.-->
+        <activity
+            android:name=".tutorial9"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- TODO -->
+        <activity
+            android:name=".tutorial10"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               <!--  -->
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
